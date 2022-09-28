@@ -2,7 +2,7 @@ require 'rails_helper'
 RSpec.describe Api::Robot::OrdersController do
     let(:robot) {Robot.create}
     let(:params) {{id: robot.id}}
-    let(:commands) {{id: robot.id, commands:["PLACE 0,0,NORTH",  "MOVE"]}}
+    let(:commands) {{id: robot.id, commands:["PLACE 0,0,NORTH",  "MOVE","REPORT"]}}
     describe 'Orders' do
         it 'Api Success Response' do
             post :create, params: commands
