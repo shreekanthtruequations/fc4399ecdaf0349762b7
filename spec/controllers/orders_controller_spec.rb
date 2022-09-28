@@ -2,7 +2,7 @@ require 'rails_helper'
 RSpec.describe Api::Robot::OrdersController do
     let(:robot) {Robot.create}
     let(:params) {{id: robot.id}}
-    let(:commands) {{id: robot.id, commands:["PLACE 1,2,EAST","MOVE","MOVE","RIGHT","MOVE","MOVE","LEFT","MOVE","LEFT","MOVE","RIGHT","MOVE","RIGHT","MOVE","REPORT"]}}
+    let(:commands) {{id: robot.id, commands:["PLACE 1,2,EAST","MOVE","RIGHT","MOVE","MOVE","LEFT","MOVE","LEFT","MOVE","RIGHT","MOVE","RIGHT","MOVE","REPORT"]}}
     describe 'Orders' do
         it 'Api Success Response' do
             post :create, params: commands
@@ -11,7 +11,7 @@ RSpec.describe Api::Robot::OrdersController do
         it 'is expected to check for the position' do
             post :create,params: commands
             body = JSON.parse(response.body)
-            expect(body["location"]).to eq(["5,1,SOUTH"])
+            expect(body["location"]).to eq(["4,1,SOUTH"])
         end
         end
 end
