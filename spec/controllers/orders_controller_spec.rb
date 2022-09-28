@@ -11,7 +11,7 @@ RSpec.describe Api::Robot::OrdersController do
         it 'is expected to check for the position' do
             post :create,params: commands
             body = JSON.parse(response.body)
-            expect(body["location"]).to eq([0,1,NORTH])
+            expect(body["location"]).to eq(["0,1,NORTH"])
         end
         end
 end
