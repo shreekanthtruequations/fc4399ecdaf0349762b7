@@ -24,7 +24,7 @@ class RobotSimulation
 
     private
     def store_positions
-        @positions << "#{@robot.x_coordinate},#{@robot.y_coordinate},#{robot.facing}"
+        @positions << "#{@robot.x_coordinate},#{@robot.y_coordinate},#{@robot.facing}"
     end
     def process_command command
         case command
