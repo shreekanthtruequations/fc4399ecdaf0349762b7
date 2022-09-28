@@ -1,0 +1,132 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/shree/fc4399ecdaf0349762b7/app/helpers/api/robot/orders_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/home/shree/fc4399ecdaf0349762b7/app/helpers/application_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/home/shree/fc4399ecdaf0349762b7/app/controllers/api/robot/orders_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          null,
+          1,
+          1,
+          4,
+          null,
+          1,
+          2,
+          null,
+          1,
+          4,
+          null,
+          null
+        ]
+      },
+      "/home/shree/fc4399ecdaf0349762b7/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/shree/fc4399ecdaf0349762b7/app/models/robot.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/home/shree/fc4399ecdaf0349762b7/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/shree/fc4399ecdaf0349762b7/app/services/robot_simulation.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          1,
+          2,
+          4,
+          2,
+          2,
+          0,
+          0,
+          null,
+          2,
+          null,
+          null,
+          2,
+          null,
+          1,
+          2,
+          null,
+          null,
+          1,
+          1,
+          0,
+          null,
+          1,
+          2,
+          null,
+          0,
+          null,
+          0,
+          null,
+          2,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          1,
+          0,
+          0,
+          0,
+          null,
+          1,
+          2,
+          null,
+          2,
+          null,
+          0,
+          null,
+          0,
+          null,
+          0,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1664364940
+  }
+}
