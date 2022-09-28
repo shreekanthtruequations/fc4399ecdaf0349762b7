@@ -6,7 +6,6 @@ class Api::Robot::OrdersController < ApplicationController
     end
     private
     def simulation_service
-        binding.pry
         @simulation_service ||= RobotSimulation.new(find_robot,commands)
     end
     def commands
